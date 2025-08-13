@@ -10,4 +10,6 @@ $name = "Ancao Celso Jr. U.";
      echo "Age: $age \n";
      echo "School: $school\n";
      echo "Subject: $subject\n";
-     echo "Student:". (Student ? "Yes" : "No"). "\n";
+     echo "Student: " . ($student ? "Yes" : "No") . "\n<br>";
+
+     ?>
